@@ -1,0 +1,50 @@
+1. Inicio 
+2. 	funcion Main
+3. 	Escribir "Ingresa un número para calcular el área de la figura 1 - Cuadrado, 2 -Triángulo, 3 - Rectángulo"
+4. 	Lea datoingresado
+5. 	si(datoingresado = 1)entonces	
+6. 		obtenerCuadrado(lado) 
+7. 	caso contrario
+8. 		si(datoingresado = 2)entonces
+9. 			obtenerTriangulo(base, altura)
+10. 		caso contrario
+11. 				si(datoingresado = 3)entonces 
+12. 					obtenerRectangulo(base, altura)
+13.						caso contrario
+14.						Escribir "El valor ingresado esta fuera de rango"
+15. 				Fin si
+16. 			Fin si
+17. 		Fin si
+18. Fin funcionPrincipal
+
+19. funcion obtenerCuadrado (lado, d;) : d 
+20.	Escribir "Ingrese el valor de uno de los lados del cuadrado"
+21.	Lea ladocuadrado	
+22. 	area_cuadrado, d[0-n]
+23. 	area_cuadrado <-- lado * lado
+24. 	cadena = "El area solicitada es" + area_cuadrado
+25.	Escribir cadena
+26. fin funcion obtenerCuadrado
+
+27. funcion obtenerTriangulo (base, d; altura, d) : d 
+28.	Escribir "Ingrese el valor de la base del triangulo"
+29.	Lea base
+30.	Escribir "Ingrese el valor de la altura del triangulo"
+31.	Lea altura
+32. 	area_triangulo, d[0-n]
+33. 	area_triangulo <-- (base * altura)/2
+34. 	cadena = "El area solicitada es" + area_triangulo
+35.	Escribir cadena
+36. fin funcion obtenerTriangulo
+
+37. funcion obtenerRectangulo (base, d; altura, d) : d 
+38.	Escribir "Ingrese el valor de la base del rectangulo"
+39.	Lea base
+40.	Escribir "Ingrese el valor de la altura del rectangulo"
+41.	Lea altura
+42. 	area_rectangulo, d[0-n]
+43. 	area_rectangulo <-- base * altura
+44. 	cadena = "El area solicitada es" + area_rectangulo
+45.	Escribir cadena
+46. fin funcion obtenerRectangulo
+47. Fin

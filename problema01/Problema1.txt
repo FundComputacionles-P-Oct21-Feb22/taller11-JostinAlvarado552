@@ -1,0 +1,49 @@
+1.Inicio
+2.funcion principal()
+4.    valorkilovatio, d[0-n]
+5.    valorinmueble, d[0-n]
+6.    nombre, x(50)[{a-z},{A-Z},{BS}]
+7.    cedula, x(50)[{a-z},{A-Z},{BS}]
+8.    valoringresado, i[0-n]
+9.    Escribir "Ingrese su nombre"
+10.   Lea nombre
+11.   Escribir "Ingrese su número de cédula"
+12.   Lea cedula
+13.   Escribir "Ingrese 1 para calcular luz, o 2 para calcular el predio de un inmueble"
+14.   Si  valoringresado == 1 entonces
+15.               calcularluz(nombre, cedula)
+16.   	Caso contrario
+17.          	Si valoringresado == 2 entonces
+18.               Predioinmueble (nombre, cedula)
+19.          	Caso contario
+20.                 Escribir "Opción incorrecta"
+21.    Fin Si
+22.    Fin funcion principal
+
+23.    funcion calcularValorLuz(a, x; b, x)
+24.    kilovatiosconsumidos, d[0-n]
+25.    valorKilovatio, d[0-n]
+26.    cadena;x(100)[{a-z},{A-Z},{BS}]
+27.    Escribir "Ingrese el número de kilovatios consumidos en el mes"
+28.    Lea kilovatiosconsumidos
+29.    Escribir "Ingrese el costo por kilovatios"
+30.    Leer valorkilovatio
+31.    predio,d[0-n]
+32.    predio = numeroKilovatioMes * valorKilovatio
+33.    cadena = "Cliente" + nombre + "con cedula" + cedula + "debe cancelar el valor de"
+34.    + predio
+35.    Escribir cadena
+36.    fin funcion calcularValorLuz
+
+37.   funcionPredioInmueble(a, x; b, x)
+38.   valorinmueble, d[0-n]
+39.   cadena;x(100)[{a-z},{A-Z},{BS}]
+40.   Escribir "Ingrese el valor de su inmueble"
+41.   Lea valorinmueble
+42.   predio,d[0-n]
+43.   predio = (valorInmueble*2)/100
+44.   cadena <-- "Cliente" + nombre + "con cedula" + cedula + "tiene un bien inmueble valorado en $" + valorInmueble + "y tiene que pagar de predio $" +predio
+45.   Escribir cadena
+46.   fin funcionPredioinmueble
+47.Fin
+   

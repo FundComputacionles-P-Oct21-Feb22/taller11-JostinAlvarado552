@@ -1,0 +1,20 @@
+1.Inicio
+2. funcion principal()
+3.	obtenervaloresarreglo()
+4. fin funcion principal
+
+5. funcion obtenervaloresarreglo()
+6.	(arreglo(5),x(100)[{a-z},{A-Z},{BS}])
+7.	datos, i[0-n]
+9.	cadena,x(100)[{a-z},{A-Z},{BS}]
+10.     datoingresado, i[0,n]
+10.	Para(datos=0, datos<6, 1)
+11.		Escribir "ingrese dato a almacenar"
+12.		lea datoingresado
+13.		arreglo[datos]= datoingresado
+15.		retorna arreglo[datos]
+16.		cadena = cadena + arreglo[datos]
+17.	Fin Para	
+18.	Escribir cadena
+19. fin funcion obtenervaloresarreglo()
+20.Fin
